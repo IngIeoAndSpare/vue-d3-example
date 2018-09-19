@@ -115,15 +115,7 @@ export default {
            + '</div> ';
     },
     dragStart: function(d, i, el) {
-      // this.targetLink = [];
-      // let dragNode = el[0].getAttribute('id');
-      // for(let linkItem of this.nodeLink) {
-      //   if(linkItem.sourceNode === dragNode) {
-      //     this.targetLink.push({movePoint : 'source', lineId: linkItem.id});
-      //   } else if (linkItem.targetNode === dragNode){
-      //     this.targetLink.push({movePoint : 'target', lineId: linkItem.id});
-      //   }
-      // }
+      // you can do!
     },
     dragEvent: function(d, i, el) {
       let source = this.nodes[el[0].getAttribute('id')];
